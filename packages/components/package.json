@@ -1,0 +1,19 @@
+{
+  "name": "@eui/components",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "yarn build --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.35",
+    "react": "^17.0.2",
+    "rollup": "^2.60.0",
+    "rollup-plugin-typescript2": "^0.31.0",
+    "typescript": "^4.5.2"
+  }
+}
